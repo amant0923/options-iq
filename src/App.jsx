@@ -171,7 +171,7 @@ const C={
 };
 
 const s={
-  root:{minHeight:"100vh",background:C.bg,fontFamily:C.sans,color:C.text,overflowX:"hidden"},
+  root:{minHeight:"100vh",width:"100%", background:C.bg,fontFamily:C.sans,color:C.text,overflowX:"hidden"},
   card:{background:C.surface,borderRadius:12,border:`1px solid ${C.border}`},
   label:{color:C.textDim,fontSize:11,textTransform:"uppercase",letterSpacing:2,fontWeight:600,fontFamily:C.mono,display:"block"},
   btn:{background:`linear-gradient(135deg,#0284c7,${C.accent})`,border:"none",borderRadius:8,padding:"11px 22px",color:"#001a22",fontWeight:700,fontSize:14,cursor:"pointer",fontFamily:C.sans},
